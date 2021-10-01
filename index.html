@@ -4,28 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <title>Street Food</title>
 </head>
 <body>
     <div id="header">
         <nav>
-            <div class="nav1">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Our Menu</a></li>
-                <li><a href="#happy">Happy hour</a></li>
-            </div>
-            <div class="logo">
-                <img src="pictures/star_logo-removebg-preview.png" alt="street logo" height="80"><h1>Street Food</h1>
-            </div>
             <ul>
-                <div class="nav2">
-                    <li><a href="#catering">Catering</a></li>
-                    <li><a href="#reservation">Reservation</a></li>
-                    <li><a href="#galley" target="_self">Gallery</a></li>
-                    <li><a href="#contact" target="_self">Contact</a></li>
+                <div class="nav1">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#happy">Happy hour</a></li>
                 </div>
+                <div class="logo">
+                    <img src="pictures/star_logo-removebg-preview.png" alt="street logo" height="80"><h1>Street Food</h1>
+                </div>
+                <ul>
+                    <div class="nav2">
+                        <li><a href="#catering">Catering</a></li>
+                        <li><a href="#reservation">Reservation</a></li>
+                        <li><a href="#galley" target="_self">Gallery</a></li>
+                        <li><a href="#contact" target="_self">Contact</a></li>
+                    </div>
+            </ul>   
         </nav>
         <div class="eclipse">
             <img src="pictures/image 5.png" alt="pilau_dish">
@@ -35,24 +37,25 @@
             <img src="pictures/image 5.png" alt="pilau_dish">
             <img src="pictures/image 5.png" alt="pilau_dish">
         </div>
+
         <div id="steet-food">
-            <div>
-            <h1 class="street">Street Food</h1>
-                <h2>We dont't play with Food</h2>
-                <p>When I was a small boy, my father told me never recommend a church or a woman to anyone. And I have it wise never to recommend anyone to restaurant either. Something always goes wrong with the cheese souffle. </p>
-                <button type="submit" id="order-btn">Order Now</button>
-            </div>
-            
+            <h1 class="street"><span class="hot-deals">Street</span><span class="food"> Food</span></h1>
+            <h2>We dont't play with Food</h2>
+            <p>When I was a small boy, my father told me never recommend a church or a woman to anyone. And I have it wise never to recommend anyone to restaurant either. Something always goes wrong with the cheese souffle. </p>
         </div>
+        <button type="submit" id="order-btn-1">Order Now</button>
+
     </div>  
     <div class="main">
-        <img src="pictures/eating_together.png" alt="This is a picture of two people eating" height="450">
-        <h1>Eat together</h1><br>
+        <img src="pictures/eating_together.png" alt="This is a picture of two people eating" height="550">
+        <div class="main-2">
+            <h1 class="food">Eat together</h1><br>
         <p>There is Something profoundly satisfying about sharing. Eating together, breaking bread togther, is one of the oldest and most foundamentally unifying of human experiences.</p>
-    </div>
+        </div>
+        </div>
 
     <div class="menu"> 
-        <h1 class="order-menu">Order Menu</h1>
+        <h1>Explore <span class="hot-deals">Menu</span> </h1>
         <div class="menu-1">
             <div>
                 <img src="pictures/amirali-mirhashemian-sc5sTPMrVfk-unsplash-removebg-preview.png" alt="burger" id="burger" height="250">
@@ -85,7 +88,6 @@
                 <h1>Burger Name</h1>
                 There is Something profoundly satisfying about sharing a meal.
             </div>
-                
            
             <div>
                 <img src="pictures/amirali-mirhashemian-sc5sTPMrVfk-unsplash-removebg-preview.png" alt="burger" id="burger" height="250">
@@ -93,43 +95,38 @@
                 There is Something profoundly satisfying about sharing a meal.
             </div>
                 
-           
         </div>
     </div>
 
     <div class="deals">
-        <h2>Hot Deals</h2>
+        <h2>Hot <span class="hot-deals">Deals</span></h2>
         <div>
-            <span id="image">
-                <img src="pictures/abhishek-hajare-kkrXVKK-jhg-unsplash-removebg-preview.png" alt="glass filled with juice">
-                <img src="pictures/likemeat-73_obA0IB_0-unsplash-removebg-preview.png" alt="burger" class="burger">
-            </span>
+            <img src="pictures/abhishek-hajare-kkrXVKK-jhg-unsplash-removebg-preview.png" alt="glass filled with juice" id="image">
+            <img src="pictures/likemeat-73_obA0IB_0-unsplash-removebg-preview.png" alt="burger" id="image1">
         </div>
-        
         <div>
-            <h1>Special Combo Pack</h1>
-            <h2>Burger Pizz</h2>
-            <h2>Fries & Drinks</h2>
+            <h1 class="hot-deals">Special Combo Pack</h1>
+            <h2><b>Burger Pizz</b></h2>
+            <h2><b>Fries & Drinks</b></h2>
             <p>There is Something profoundly satisfying about sharing. Eating together, breaking bread togther, is one of the oldest and most foundamentally unifying of human experiences.</p>
-        </div>
-        
+        </div>      
     </div>
 
     <div class="contact">
         <div class="contact-us">
-        <h2>Contact Us</h2>
+        <h2>Contact <span class="hot-deals">Us</span></h2>
             <p>There is Something profoundly satisfying about sharing. Eating together, breaking bread togther, is one of the oldest and most foundamentally unifying of human experiences.</p>
-            <input type="email" id="email-input" placeholder="Email"><br><br>
-            <button type="submit" id="order-btn">Send</button>
         </div>
+        <input type="email" id="email-input" placeholder="Email"><br><br>
+        <button type="submit" id="order-btn">Send</button>
         
     </div>
     <footer>
         <span>
-            <li><h3>Sunday - Thursday</h3></li>
-            <li>4-PPM</li>
-            <li><h3>Friday - Thursday</h3></li>
-            <li>4-10PM</li>
+            <h3>Sunday - Thursday</h3>
+            4 PM
+           <h3>Friday - Thursday</h3>
+            4-10PM
         </span>
         <span>
             <h3>(423) 266-1121</h3>

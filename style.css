@@ -1,0 +1,150 @@
+* {
+    font: Poppins;
+    line-height: 20pt;
+}
+nav {
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#steet-food {
+    height: auto;
+    width: 300px;
+    margin-top: 70pt;
+    margin-left: 20px;
+    line-height: 20pt;
+}
+#header {
+    Background-Color: rgb(209, 208, 208);
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin: 50px 0px;
+}
+.nav1 ,.nav2{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.main-2 {
+    height: auto;
+    width: 300px;
+    margin-top: 70pt;
+    line-height: 20pt;
+}
+.deals {
+    display: flex;
+    flex-direction: row;
+}
+.hot {
+    text-align: center;
+}
+.contact {
+    background-color: #FFD77C;
+    text-align: center;
+    box-sizing: border-box;    
+}
+.contact-us {
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 20px;
+    line-height: 20pt;
+}
+.hot-deals {
+    color: #6CB840;
+}
+.food {
+    color:  #EAAB1B;
+}
+#steet-food {
+    text-align: left;
+}
+.eclipse {
+    float: right;
+}
+.menu > h1 {
+    text-align: center;
+}
+.menu {
+    background-color: rgb(209, 208, 208);
+    padding: 8px 12px;
+    margin: 50px,0px;
+    align-items: center;
+}
+.menu-1 , .menu-2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 30pt;
+    padding-left: 40pt;
+    padding-top: 80pt;
+    padding-bottom: 100pt;
+}
+.menu-1 > div , .menu-2 > div {
+    height: 200px;
+    width: 330px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: inherit;
+    background-color: white;
+    margin-right: 15px;
+    border-radius: 8px 8px 6px 0;
+}
+.menu-1 > div > img , .menu-2 > div > img {
+    float:left;
+    position: relative;
+    bottom: -100px;
+    left: -60px;
+}
+#order-btn {
+    border-radius: 50%;
+    background-color: #6CB840;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: large;
+    font-weight: 700;
+    width: 10%;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    border: transparent;
+}
+#order-btn-1 {
+    border-radius: 50%;
+    background-color: #6CB840;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: large;
+    font-weight: 700;
+    width: 13%;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    border: transparent;
+    margin-left: 20px;
+}
+
+input {
+    width: 30%;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: transparent;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C9ECB5;
+    padding-left: 2px;
+}
