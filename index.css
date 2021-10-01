@@ -21,12 +21,17 @@ nav {
     padding: 10px;
 }
 #order-btn {
-    width: 8%;
-    height: 7%;
     border-radius: 20%;
     background-color: #6CB840;
     color: white;
     text-align: center;
+    align-items: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: large;
+    font-weight: 700;
+    width: 20%;
+    border-radius: 15px;
 }
 footer {
     background-color: #C9ECB5;
