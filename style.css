@@ -5,6 +5,15 @@
 nav {
     display: flex;
 }
+
+.eclipse img {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px;
+  width: 100px;
+  height: 100px;
+}
 ul {
     list-style-type: none;
     display: flex;
@@ -147,4 +156,17 @@ footer {
     justify-content: space-between;
     background-color: #C9ECB5;
     padding-left: 2px;
+}
+#send-btn {
+    border: transparent;
+    width: 10%;
+    height: 5%;
+    text-align: center;
+    background-color: #6CB840;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: auto;
+    color: white;
+    font-weight: 700;
+    
 }
