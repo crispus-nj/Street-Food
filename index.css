@@ -1,7 +1,25 @@
 * {
     font-family: popins;
 }
-
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.eclipse{
+    float: right;
+    height: 150%;
+    background-color: #649549;
+    
+}
+.nav1 > li{
+    display: inline;
+    padding: 10px;
+}
+.nav2 > li {
+    display: inline;
+    padding: 10px;
+}
 #order-btn {
     width: 8%;
     height: 7%;
@@ -21,6 +39,20 @@ footer {
 .contact {
     background-color: #FFD77C;
 }
-.eclipse {
-    background-color: #649549;
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.main > img {
+    margin-left: 20px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.deals {
+    background-color: #C9ECB5;
+}
+.street-food {
+    width: 40%;
 }
