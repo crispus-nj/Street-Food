@@ -12,13 +12,25 @@ nav {
     background-color: #649549;
     
 }
-#menu {
+.menu-1 {
     display: flex;
     flex-direction: row;
 }
+.menu-2 {
+    display: flex;
+    flex-direction: row;
+}
+/* .menu-1 > img {
+    float: left;
+} */
 /* .order-menu{
     
 } */
+input {
+    width: 30%;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
 .nav1 > li{
     display: inline;
     padding: 10px;
@@ -39,6 +51,7 @@ nav {
     font-weight: 700;
     width: 10%;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 footer {
     background-color: #C9ECB5;
@@ -71,7 +84,14 @@ footer {
 }
 .deals {
     background-color: #C9ECB5;
+    display: flex;
+    flex-direction: row;
 }
 .street-food {
     width: 40%;
+}
+#header {
+    background-color: #649549;
+    top: 20px;
+    ;
 }
