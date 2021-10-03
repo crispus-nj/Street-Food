@@ -1,19 +1,53 @@
 * {
-    font: Poppins;
+    font-family: Poppins;
     line-height: 20pt;
+
 }
 nav {
     display: flex;
 }
-
-.eclipse img {
+.eclipse {
+    margin: 100px;
+    width: 400px;
+    height: 400px;
+    /*   add border top and right */
+    border-top: 3px dashed #ccc;
+    border-right: 3px dashed #ccc;
+    /*  make borders circular  */
+    border-radius: 50%;
     position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -50px;
-  width: 100px;
-  height: 100px;
-}
+    right: 30%;
+    
+  }
+  .eclipse img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px;
+    width: 100px;
+    height: 100px;
+    margin-left: 70%;
+  }
+  
+  .eclipse img:first-child {
+    transform: rotate(0deg) translateY(-200px);
+  }
+  
+  .eclipse img:nth-child(2) {
+    transform: rotate(45deg) translateY(-200px);
+  }
+  
+  .eclipse img:nth-child(3) {
+    transform: rotate(90deg) translateY(-200px);
+  }
+  
+  .eclipse img:nth-child(4) {
+    transform: rotate(-45deg) translateY(-200px);
+  }
+  
+  .eclipse img:nth-child(5) {
+    transform: rotate(-90deg) translateY(-200px);
+  }
 ul {
     list-style-type: none;
     display: flex;
@@ -26,6 +60,8 @@ ul {
     margin-top: 70pt;
     margin-left: 20px;
     line-height: 20pt;
+    font-size: large;
+    font-family: popins;
 }
 #header {
     Background-Color: rgb(209, 208, 208);
@@ -33,13 +69,7 @@ ul {
     box-sizing: border-box;
     margin: 50px 0px;
 }
-.nav1 ,.nav2{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-between;
-    padding: 10px;
-}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -168,5 +198,4 @@ footer {
     padding: auto;
     color: white;
     font-weight: 700;
-    
 }
