@@ -24,6 +24,9 @@ li a{
     padding: 8px;
     float: right;
 }
+li a:hover {
+    color: #6CB840;
+}
 .eclipse {
     margin: 100px;
     width: 400px;
@@ -65,7 +68,6 @@ li a{
     transform: rotate(-90deg) translateY(-200px);
 }
 
-
 #steet-food {
     height: auto;
     width: 380px;
@@ -75,7 +77,6 @@ li a{
     font-size: large;
     font-family: popins;
 }
-
 
 .main {
     display: flex;
@@ -93,6 +94,9 @@ li a{
     padding: 25px 50px 25px 50px;
     height: 600px;
 }
+.paragraph {
+    color: violet;
+}
 .juice{
     float: left;
     position: relative;
@@ -105,7 +109,6 @@ li a{
     bottom: 250px;
     left: -390px;
 }
-
 .hot {
     text-align: center;
 }
@@ -113,12 +116,10 @@ li a{
     background-color: #FFD77C;
     text-align: center;
     box-sizing: border-box;  
-    margin-top: 15px;  
 }
 .contact-us {
     width: 300px;
     margin-left: 40%;
-    line-height: 20pt;
 }
 .hot-deals {
     color: #6CB840;
@@ -145,11 +146,11 @@ li a{
     background-color: rgb(209, 208, 208);
     padding: 8px 12px;
     margin: 50px,0px;
-    align-items: center;
 }
 .menu-1 , .menu-2 {
     display: flex;
     justify-content: space-evenly;
+    
     
 }
 .menu-1 {
@@ -166,10 +167,14 @@ li a{
     width: 330px;
     display: flex;
     justify-content: space-evenly;
-    align-items: inherit;
+    align-items: left;
     background-color: white;
     margin-right: 15px;
-    border-radius: 8px 8px;
+    border-radius: 8px;
+    
+}
+.menu-1 > div > .paragraph {
+    color:violet;
 }
 #burger{
     float:left;
