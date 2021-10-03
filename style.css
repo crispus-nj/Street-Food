@@ -189,7 +189,7 @@ footer {
 }
 #send-btn {
     border: transparent;
-    width: 10%;
+    width: 6%;
     height: 5%;
     text-align: center;
     background-color: #6CB840;
@@ -198,4 +198,5 @@ footer {
     padding: auto;
     color: white;
     font-weight: 700;
+    font-size: large;
 }
