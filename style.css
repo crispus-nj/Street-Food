@@ -88,9 +88,24 @@ li a{
     line-height: 20pt;
 }
 .deals {
-    display: flex;
-    flex-direction: row;
+    text-align: center;
+    background-color: #C9ECB5;
+    padding: 25px 50px 25px 50px;
+    height: 600px;
 }
+.juice{
+    float: left;
+    position: relative;
+    bottom: 530px;
+    left: -10px;
+}
+.burger {
+    float: left;
+    position: relative;
+    bottom: 250px;
+    left: -390px;
+}
+
 .hot {
     text-align: center;
 }
@@ -108,6 +123,11 @@ li a{
 }
 .hot-deals {
     color: #6CB840;
+}
+.hot-deals-1 {
+    color: #6CB840;
+    font-weight: 700;
+    font-size: xx-large;
 }
 .food {
     color:  #EAAB1B;
@@ -150,7 +170,7 @@ li a{
     align-items: inherit;
     background-color: white;
     margin-right: 15px;
-    border-radius: 8px 8px 6px 0;
+    border-radius: 8px 8px;
 }
 #burger{
     float:left;
