@@ -94,9 +94,7 @@ li a:hover {
     padding: 25px 50px 25px 50px;
     height: 600px;
 }
-.paragraph {
-    color: violet;
-}
+
 .juice{
     float: left;
     position: relative;
@@ -150,7 +148,8 @@ li a:hover {
 .menu-1 , .menu-2 {
     display: flex;
     justify-content: space-evenly;
-    
+    text-align: left;
+    left: -300px;
     
 }
 .menu-1 {
@@ -173,10 +172,10 @@ li a:hover {
     border-radius: 8px;
     
 }
-.menu-1 > div > .paragraph {
+.menu p {
     color:violet;
 }
-#burger{
+.menu img{
     float:left;
     position: relative;
     bottom: -65px;
