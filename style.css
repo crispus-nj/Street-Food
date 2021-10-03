@@ -11,18 +11,18 @@
     box-sizing: border-box;
     margin: 50px 0px;
 }
-nav {
-    display: flex;
-}
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    
 }
 li a{
     color: black;
     text-decoration: none;
+    padding: 8px;
+    float: right;
 }
 .eclipse {
     margin: 100px;
@@ -118,7 +118,6 @@ li a{
 .contact-us {
     width: 300px;
     margin-left: 40%;
-    margin-top: 20px;
     line-height: 20pt;
 }
 .hot-deals {
