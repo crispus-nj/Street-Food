@@ -1,8 +1,8 @@
 * {
     font: Poppins;
     line-height: 20pt;
-    padding: 5px;
-    margin: 13px 0;
+    /* padding: 5px;
+    margin: 13px 0; */
 }
 html,body{
     margin: 0;
@@ -119,14 +119,17 @@ li a{
 .juice{
     float: left;
     position: relative;
-    bottom: 530px;
+    bottom: 430px;
     left: -10px;
 }
 .burger {
     float: left;
     position: relative;
-    bottom: 250px;
+    bottom: 150px;
     left: -390px;
+}
+.deals > h1 {
+    padding-top: 20px;
 }
 .hot {
     text-align: center;
@@ -139,6 +142,10 @@ li a{
 .contact-us {
     width: 300px;
     margin-left: 40%;
+    
+}
+.contact-us > h2 {
+    padding-top: -90px;
 }
 .hot-deals {
     color: #6CB840;
@@ -159,46 +166,42 @@ li a{
 }
 .menu > h1 {
     text-align: center;
+    padding-top: 15px;
 }
 
 .menu {
     background-color: rgb(209, 208, 208);
-    padding: 8px 12px;
-    margin: 50px,0px;
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-bottom: 1px;
 }
-.menu-1 , .menu-2 {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: left;
-    left: -300px;
+.menu > p {
     
-}
-.menu-1 {
-    padding-right: 30pt;
-    padding-left: 40pt;
-    padding-top: 30pt;
-    padding-bottom: 70pt;
-}
-.menu-2 {
-    padding-bottom: 70pt;
-}
-.menu-1 > div , .menu-2 > div {
-    height: 200px;
-    width: 330px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: left;
     background-color: white;
-    margin-right: 80px;
-    border-radius: 8px;
-    
+    margin-left: 180px;
+    margin-right: 5px;
+    margin-top: 45px;
+    border-bottom-right-radius: 40px;
+    width: 230px;
+    height: 125px;
+    display: inline-flex;
+    justify-content: right;
+    text-align: center;
+    margin-bottom: 80px;
+    padding-right: 30px;
+    padding-top: 10px;
 }
-
-.menu img{
-    float:left;
-    position: relative;
-    bottom: -65px;
-    left: -70px;
+.menu > img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 65px;
+    margin-left: 70px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    display: inline-flex;
+    
 }
 #order-btn {
     border-radius: 50%;
